@@ -1,0 +1,70 @@
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+<meta charset="UTF-8">
+ <link href="Style/style.css" rel="stylesheet" />
+  <title>
+      International Employees
+    </title>
+<style>
+table, thead, td,tr{
+border: 1px solid silver;
+border-collapse: collapse;
+font-family: Ariel;
+    font-size: 12px;
+    padding: 4px 4px 4px 4px;
+}
+tr{
+height: 40px;
+}
+td, thead {
+    width: 80px;
+}
+thead {
+    background-color: #00C300;
+    color: #ffffff;
+	
+.checkbox{
+color:black;
+}
+</style>
+	</head>
+	<body>
+	<form>
+	<table>
+	<thead>
+	<td>Contact Name</td>
+	<td>City</td>
+	<td>Is promoted</td>
+	<td>Country	</td>
+	</thead>
+	<tbody>
+	<tr>
+	<td>Tomas Hardy</td>
+	<td class="UK">UK</td>
+    <td><input type="checkbox" name="promoted" value="" enabled="enabled"></td>
+	<td>London</td>
+	</tr>
+	<tr>
+	<td>Ana Trujillo</td>
+	<td class="Mexico">Mexico</td>
+    <td><input type="checkbox" name="promoted" value="" enabled="enabled"></td>
+	<td>Mexico D.F</td>
+	</tr>
+	<tr>
+	<td>Maria Andres</td>
+	<td class="germany">Germany</td>
+    <td><input type="checkbox" name="promoted" value="" enabled="enabled"></td>
+	<td>Berlin</td>
+	</tr>
+	<tr>
+	<td>Antonio Moreno</td>
+	<td class="Mexico">Mexico</td>
+    <td><input type="checkbox" name="disabled" value="" disabled="disabled"></td>
+	<td>Mexico D.F</td>
+	</tr>
+	</tbody>
+	</table>
+	</form>
+	</body>
+		</html>
